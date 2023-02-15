@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   max-width: 1100px;
+   margin: 0 auto;
+   padding: 0 30px;
+   border-radius: 20px;
+
+}
+
+body {
+   background-color: #343633;
+   color: white;
+   font-family: 'poppins', 'sans-serif';
+}
+
+img {
+   transform: scale(0.7);
+   max-width: 400px;
+}
+
+.logo {
+   margin-left: 40em;
+}
+
+#splash {
+   background-color: #93867F;
+   border: 2px steelblue;
+   margin: 20px auto;
+   border-radius: 20px;
+   box-shadow: 0px 5px 10px rgb(17, 17, 17);
+}
+
+.header {
+   /* border: 3px solid #DEC1FF; */
+   border-radius: 20px;
+   max-width: 960px;
+   margin: 40px auto;
+   padding: 20px;
+}
+
+.header p {
+   margin-bottom: 20px;
+}
+
+.header h1 {
+   font-size: 3rem;
+   font-weight: bold;
+   line-height: 1.2;
+   margin-bottom: 100px;
+}
+
+.navbar {
+   background: #343633;
+   display: flex;
+   justify-content: space-between;
+   /* border: 3px solid yellow; */
+
+   max-width: 1100px;
+   color: white;
+   height: 60px;
+   margin: 10px auto;
+   border-radius: 20px;
+   
+   -webkit-animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+   animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+}
+
+.nav {
+   min-width: 1000px;
+   /* border: 3px solid red; */
+}
+
+.navbar a {
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+   font-style: bold;
+}
+
+ul {
+   display: flex;
+   list-style-type: none;
+}
+
+li {
+   margin-left: 20px;
+}
+
+.box {
+   flex: 1;
+   color: #fff;
+   border-radius: 10px;
+   margin: 20px 10px;
+   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+   padding: 15px 20px;
+}
+
+.box i {
+   margin-right: 10px;
+}
+
+#b1,
+#b2,
+#b3 {
+   background-color: #DEC1FF;
+   color: black;
+   padding: 20px;
+   margin: 20px;
+   border-radius: 20px;
+}
