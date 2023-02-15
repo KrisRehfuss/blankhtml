@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 * {
    box-sizing: border-box;
@@ -9,7 +9,7 @@
 body {
    background-color: #343633;
    color: white;
-   font-family: 'poppins', 'sans-serif';
+   font-family: "poppins", "sans-serif";
 }
 
 img {
@@ -27,21 +27,57 @@ img {
    margin: 0 auto;
    padding: 0 30px;
    border-radius: 20px;
-
 }
 
 #splash {
-   background-color: #93867F;
+   background-color: #93867f;
    margin: 20px auto;
    border-radius: 20px;
    box-shadow: 0px 5px 10px rgb(17, 17, 17);
 }
 
+#splash2 {
+   border: 2px solid steelblue;
+   background-color: #5CC8FF;
+   display: flex;
+   flex-flow: column;
+   justify-content: space-between;
+   align-items: center;
+
+   max-width: 1100px;
+   margin: 0 auto;
+   padding: 0 30px;
+   border-radius: 20px;
+}
+
+#splash2 h1 {
+   padding: 20px;
+   margin: auto;
+}
+
 .header {
-   border: 3px solid #DEC1FF;
+   border: 3px solid #dec1ff;
    border-radius: 20px;
    max-width: 960px;
    margin: 40px auto;
+   padding: 20px;
+}
+
+.header2 {
+   display: flex;
+   flex-flow: colummn;
+   border: 3px solid #dec1ff;
+   border-radius: 20px;
+   max-width: 960px;
+   margin: 40px auto;
+   padding: 20px;
+}
+
+.header2 div {
+   border: 2px solid steelblue;
+   background-color: rgba(70, 131, 180, 0.493);
+   border-radius: 20px;
+   margin: 20px;
    padding: 20px;
 }
 
@@ -56,7 +92,6 @@ img {
    margin-bottom: 100px;
 }
 
-s
 .navbar {
    background: #343633;
    display: flex;
@@ -69,8 +104,8 @@ s
    margin: 10px auto;
    border-radius: 20px;
 
-   -webkit-animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
-   animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+   -webkit-animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+   animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
 }
 
 .nav {
@@ -106,7 +141,6 @@ li {
    max-width: 1000px;
    margin: 0 auto;
    padding: 0 30px;
-
 }
 
 .box {
@@ -125,7 +159,7 @@ li {
 #b1,
 #b2,
 #b3 {
-   background-color: #DEC1FF;
+   background-color: #dec1ff;
    color: black;
    padding: 20px;
    margin: 20px;
