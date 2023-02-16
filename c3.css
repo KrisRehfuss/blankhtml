@@ -3,98 +3,67 @@
 * {
    box-sizing: border-box;
    margin: 0;
-   padding: 0;
+   padding: 0
 }
 
 body {
    background-color: #1E2019;
    color: white;
-   font-family: "poppins", "sans-serif";
+   font-family: "Poppins", "sans-serif"
 }
 
 img {
-   transform: scale(0.7);
-   max-width: 400px;
+   transform: scale(.7);
+   max-width: 400px
 }
 
 .container {
-   /* border: 2px solid steelblue; */
-
    display: flex;
    justify-content: space-between;
    align-items: center;
-
    max-width: 1100px;
    border-radius: 20px;
    padding: 0 30px;
-   margin: 0 auto;
+   margin: 0 auto
 }
 
-#splash {
+.header {
    background-color: #93867f;
    margin: 20px auto;
    max-width: 900px;
    min-height: 450px;
-   box-shadow: 0px 5px 10px rgb(17, 17, 17);
-}
-
-#splash2 h1 {
-   padding: 20px;
-   margin: auto;
-}
-
-.header {
-   /* border: 3px solid #dec1ff; */
-
+   box-shadow: 0 5px 10px #111;
    border-radius: 20px;
-   max-width: 960px;
    padding: 20px;
-   margin: 40px auto;
+   margin: 40px auto
 }
 
-.boxes {
-   /* border: 2px solid steelblue; */
-
-   border-radius: 20px;
-   max-width: 900px;
-   margin: 0 auto;
-   padding: 0 30px;
-}
-
-#b1,
-#b2,
-#b3 {
-   background-color: #dec1ff;
+.box {
+   background-color: #FFE5D9;
    color: black;
-
    border-radius: 20px;
-   /* color: #fff; */
-   border-radius: 10px;
-   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+   box-shadow: 0 3px 5px rgba(0, 0, 0, .6);
    min-height: 133px;
    max-width: 700px;
    padding: 15px 20px;
-   margin: 33px auto;
+   margin: 33px auto
+}
+
+.box i {
+   margin-right: 10px
 }
 
 .pink {
-   /* border: 3px solid #dec1ff; */
-
    border-radius: 20px;
    padding: 20px;
-   margin: 5px auto;
+   margin: 5px auto
 }
 
 .pink div {
-   /* border: 2px solid #dec1ff; */
-
-   /* min-width: 800px; */
-
+   border-radius: 20px
 }
 
 .lightpink {
-   /* border: 2px solid lightpink; */
-
    display: flex;
    justify-content: center;
    gap: 60px;
@@ -102,91 +71,78 @@ img {
    border-radius: 20px;
    max-width: 860px;
    padding: 20px;
-   margin: 5px auto;
+   margin: 5px auto
 }
 
 .lightpink div {
    border: 3px solid lightpink;
-
    background-color: #C98686;
    border-radius: 20px;
    padding: 30px;
-   margin: 20px auto;
+   margin: 20px auto
 }
 
 .steelblue {
-   /* border: 3px solid steelblue; */
-
    display: flex;
    flex-flow: column;
    border-radius: 20px;
    max-width: 960px;
-   /* padding: 20px; */
-   margin: 10px auto;
+   margin: 10px auto
 }
 
 .steelblue div {
    border: 2px solid steelblue;
-
-   background-color: rgba(70, 131, 180, 0.493);
+   background-color: rgba(70, 131, 180, .493);
    border-radius: 20px;
    max-width: 900px;
    padding: 30px;
-   margin: 20px auto;
+   margin: 20px auto
 }
 
 .header p {
-   margin-bottom: 20px;
+   margin-bottom: 20px
 }
 
 .header h1 {
    font-size: 3rem;
    font-weight: bold;
    line-height: 1.2;
-   margin-bottom: 100px;
+   margin-bottom: 100px
 }
 
 .navbar {
    background: #343633;
    display: flex;
    justify-content: space-between;
-   /* border: 3px solid yellow; */
-
    max-width: 1100px;
    color: white;
    height: 60px;
    margin: 10px auto;
    border-radius: 20px;
-
-   -webkit-animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
-   animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+   -webkit-animation: swing-in-top-fwd .5s cubic-bezier(.175, .885, .32, 1.275) both;
+   animation: swing-in-top-fwd .5s cubic-bezier(.175, .885, .32, 1.275) both
 }
 
 .nav {
    list-style-type: none;
-   min-width: 1000px;
-   /* border: 3px solid red; */
+   min-width: 1000px
 }
 
 .logo {
-   margin-left: 39em;
+   margin-left: 39em
 }
 
 .navbar a {
    text-decoration: none;
    color: white;
    font-size: 18px;
-   font-style: bold;
+   font-style: bold
 }
 
 ul {
-   display: flex;
+   display: flex
 }
 
 li {
-   margin-left: 20px;
-}
-
-.box i {
-   margin-right: 10px;
+   margin-left: 20px
 }
